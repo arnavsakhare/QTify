@@ -12,7 +12,7 @@ function Navbar() {
             <Logo />
         </Link>
         <Search
-            placeholder="Search an album of your choice..."
+            placeholder="Search a song of your choice..."
         />
         <Button>Give Feedback</Button>
     </nav>
