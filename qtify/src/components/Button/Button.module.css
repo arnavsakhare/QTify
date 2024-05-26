@@ -1,0 +1,12 @@
+.button {
+    background-color: var(--color-black);
+    color: var(--color-primary);
+    height: 47px;
+    width: 170px;
+    font-size: 18px;
+    border: 1px;
+    border-radius: 12px;
+    padding: 10px 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
