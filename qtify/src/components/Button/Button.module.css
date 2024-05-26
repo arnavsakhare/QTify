@@ -1,6 +1,7 @@
 .button {
     background-color: var(--color-black);
     color: var(--color-primary);
+    font-family: "Poppins", sans-serif;
     height: 47px;
     width: 170px;
     font-size: 18px;
