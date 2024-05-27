@@ -6,10 +6,12 @@ import {RouterProvider, createBrowserRouter, createRoutesFromElements, Route} fr
 import HomePage from './pages/HomePage/HomePage.jsx';
 
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />} >
       <Route path="" element={<HomePage />}/>
+      
     </Route>
   )
 )
