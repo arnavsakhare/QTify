@@ -1,0 +1,7 @@
+.rightNavButton {
+    position: absolute;
+    right: 0px;
+    top: 40%;
+    z-index: 10;
+    cursor: pointer;
+}
