@@ -109,6 +109,8 @@ function SongCard({data, type}) {
   
         )
       }
+
+      
     }
     
   }

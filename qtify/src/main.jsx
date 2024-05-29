@@ -11,8 +11,8 @@ import AlbumPage from './pages/AlbumPage/AlbumPage.jsx';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />} >
-      <Route path="" element={<HomePage />}/>
-      <Route path="album/:albumId" element={<AlbumPage />} />
+      <Route path="/" element={<HomePage />}/>
+      <Route path="/album/:albumId" element={<AlbumPage />} />
     </Route>
   )
 )

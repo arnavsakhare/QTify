@@ -3,11 +3,11 @@ import { useParams } from 'react-router-dom';
 
 
 function AlbumPage() {
-    const albumId = useParams();
+    const {albumId} = useParams();
 
-    
+
   return (
-    <div>{albumId}</div>
+    <div>Album : {albumId}</div>
   )
 }
 
